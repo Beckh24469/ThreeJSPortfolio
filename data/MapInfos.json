@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"expanded":false,"name":"Outside_House","order":1,"parentId":0,"scrollX":819,"scrollY":461},
+{"id":2,"expanded":false,"name":"outside_school","order":2,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":3,"expanded":true,"name":"boulderpass","order":3,"parentId":0,"scrollX":819,"scrollY":461},
+{"id":4,"expanded":false,"name":"boulderpass_dungeon","order":4,"parentId":3,"scrollX":1232,"scrollY":453}
+]

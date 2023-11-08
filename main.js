@@ -146,7 +146,7 @@ function animate(time) {
 
   //controls.update();
 
- // pops.rotation.x += 0.002;
+  pops.rotation.x += 0.002;
   
   
   

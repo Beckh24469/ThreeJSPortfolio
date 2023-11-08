@@ -1,5 +1,4 @@
 import * as THREE from './three.module.js';
-import './style.css';
 
 
 //Setup

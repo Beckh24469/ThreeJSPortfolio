@@ -1,5 +1,5 @@
 import * as THREE from './three.module.js';
-
+import './style.css';
 
 
 //Setup
@@ -100,30 +100,30 @@ scene.background = spaceTexture;
   // scene.add(beck);
   
   
-  //MARS
-  const marsTexture = new THREE.TextureLoader().load('mars.png')
-  const normalTexture = new THREE.TextureLoader().load('normal.jpg')
+  //pops
+  const popsTexture = new THREE.TextureLoader().load('popstexture.jpg')
+ // const normalTexture = new THREE.TextureLoader().load('normal.jpg')
   
-  const mars = new THREE.Mesh(
+  const pops = new THREE.Mesh(
     new THREE.SphereGeometry(6, 64, 64),
     new THREE.MeshStandardMaterial({
-      map: marsTexture,
-      normalMap: normalTexture
+      map: popsTexture,
+     // normalMap: normalTexture
     })
     );
     
-    scene.add(mars)
+    scene.add(pops)
 
-mars.position.z = 30;
-mars.position.setX(-10);
+pops.position.z = 30;
+pops.position.setX(-10);
 
 
 function moveCamera() {
   
   const t = document.body.getBoundingClientRect().top;
-  mars.rotation.x += 0.01;
-  mars.rotation.y += 0.013;
-  mars.rotation.z += 0.01;
+  pops.rotation.x += 0.01;
+  pops.rotation.y += 0.013;
+  pops.rotation.z += 0.01;
   
   // beck.rotation.y += 0.01;
   // beck.rotation.x += 0.01;
@@ -147,7 +147,7 @@ function animate(time) {
 
   //controls.update();
 
- // mars.rotation.x += 0.002;
+ // pops.rotation.x += 0.002;
   
   
   

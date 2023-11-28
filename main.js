@@ -15,7 +15,7 @@ camera.position.z = 30;
 let imgList = [
     'me.png',
     'OSHA.png',
-    'CompTIA.png',
+    'compTIA.png',
     'classpic.png',
 
 ]

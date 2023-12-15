@@ -29,7 +29,6 @@ canvas {
 
   h1{
     color: white;
-    position: 
   }
 
   @media screen and (max-width: 600px) {
@@ -47,8 +46,9 @@ canvas {
 
     body {
       font-size: 34px;
-      font-family: Comic Sans MS;
+      font-family: Arial, Helvetica, sans-serif;
       color: rgb(24, 24, 24);
     }
     
+
   }
